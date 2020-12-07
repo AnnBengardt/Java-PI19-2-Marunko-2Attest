@@ -28,8 +28,6 @@ public class Answer extends AuditModel{
     @JsonIgnore
     private Question question;
 
-    public Answer(){}
-
     public Long getId() {
         return id;
     }

@@ -16,7 +16,7 @@ public class Question extends AuditModel {
     )
     private Long id;
 
-    @Column(columnDefinition = "title")
+    @Column(columnDefinition = "text")
     private String title;
 
     @Column(columnDefinition = "text")
